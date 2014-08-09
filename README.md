@@ -2,6 +2,7 @@
 
 ## Overview ##
 Phalcon / AngularJS skeleton
+
 Stack: Phalcon, AngularJS, Bootstrap, Bower, CoffeeScript, SASS, Grunt, Karma/Jasmine
 
 ## Installation steps ##
