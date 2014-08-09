@@ -14,5 +14,6 @@ cd path/to/project
 npm install
 bower install
 grunt build
+grunt vendor
 mkdir app/cache
 ```
