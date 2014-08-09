@@ -15,13 +15,19 @@ angular.module 'Application', ['ui.router']
 .config [
     '$stateProvider'
     '$urlRouterProvider'
-    ($stateProvider, $urlRouterProvider) ->
+    '$interpolateProvider'
+    'Config'
+    ($stateProvider, $urlRouterProvider, $interpolateProvider, Config) ->
+
+        $interpolateProvider.startSymbol '[['
+        $interpolateProvider.endSymbol ']]'
+
         $urlRouterProvider
         .otherwise '/'
         $stateProvider
         .state 'main',
             url: '/'
-            templateUrl: 'app/views/main.html'
+            templateUrl: Config.baseUri + 'app/views/main.html'
             controller: 'MainCtrl as main'
         return
 ]

@@ -3,6 +3,7 @@
 describe 'MainCtrl', ->
 
     controller = undefined
+    scope = undefined
 
     beforeEach ->
         module 'Application'
@@ -12,3 +13,6 @@ describe 'MainCtrl', ->
 
     it 'should be defined', ->
         expect(controller).toBeDefined()
+
+    it 'should have title', ->
+        expect(scope.title).toBe 'Hello World!'

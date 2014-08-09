@@ -2,7 +2,7 @@
 <html ng-app='Application'>
 <head>
     <title>
-        Application
+        Phangular
     </title>
     {{ stylesheet_link("vendor/stylesheets/bootstrap.min.css") }}
     {{ stylesheet_link("vendor/stylesheets/font-awesome.min.css") }}
