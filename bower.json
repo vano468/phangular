@@ -1,0 +1,14 @@
+{
+    "name": "phangular",
+    "version": "0.0.1",
+    "dependencies": {
+        "angular": "latest",
+        "jquery": "latest",
+        "jquery-ui": "latest",
+        "bootstrap": "latest",
+        "angular-ui-router": "latest",
+        "angular-sanitize": "latest",
+        "fontawesome": "latest",
+        "angular-mocks": "latest"
+    }
+}

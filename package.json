@@ -1,0 +1,20 @@
+{
+    "name": "phangular",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "grunt": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-coffee": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-clean": "latest",
+        "grunt-contrib-sass": "latest",
+        "grunt-contrib-cssmin": "latest",
+        "grunt-contrib-copy": "latest",
+        "karma-jasmine": "latest",
+        "karma-coffee-preprocessor": "latest",
+        "karma-chrome-launcher": "latest",
+        "karma": "latest",
+        "coffee-script": "latest"
+    }
+}
