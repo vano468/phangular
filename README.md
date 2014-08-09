@@ -1,29 +1,16 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Phalcon / AngularJS skeleton
+Stack: Phalcon, AngularJS, Bootstrap, Bower, CoffeeScript, SASS, Grunt, Karma/Jasmine
 
-### What is this repository for? ###
+## Installation steps ##
+```
+#!bash
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+git clone https://bitbucket.org/vano468/phangular.git
+cd path/to/project
+npm install
+bower install
+grunt build
+mkdir app/cache
+```
